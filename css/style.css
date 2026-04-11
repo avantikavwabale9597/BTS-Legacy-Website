@@ -104,10 +104,34 @@ body {
 }
 
 .typing-text {
-  min-height: 32px;
-  font-size: 1.15rem;
-  color: #eaeaea;
-  margin-bottom: 28px;
+  min-height: 40px;
+  font-size: 1.35rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.typing-text.show {
+  opacity: 1;
+  animation: neonGlow 2s infinite alternate;
+}
+
+@keyframes neonGlow {
+  0% {
+    text-shadow:
+      0 0 5px #b026ff,
+      0 0 10px #b026ff,
+      0 0 20px #6c63ff;
+  }
+
+  100% {
+    text-shadow:
+      0 0 10px #c39bd3,
+      0 0 20px #b026ff,
+      0 0 35px #6c63ff;
+  }
 }
 
 .btn {

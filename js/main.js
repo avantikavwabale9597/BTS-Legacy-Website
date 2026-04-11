@@ -1,13 +1,24 @@
-const text = "Celebrating the journey, music and global impact of BTS";
-const typingTarget = document.querySelector(".typing-text");
+const textTarget = document.querySelector(".typing-text");
 
-let index = 0;
+const phrases = [
+  "Celebrating the journey of BTS.",
+  "Music that inspired the world.",
+  "Seven artists. One legacy.",
+  "Borahae Forever!!",
+];
 
-function typeEffect() {
-  if (index < text.length) {
-    typingTarget.textContent += text.charAt(index);
-    index++;
-    setTimeout(typeEffect, 45);
-  }
+let current = 0;
+
+function changeText() {
+  textTarget.classList.remove("show");
+
+  setTimeout(() => {
+    textTarget.textContent = phrases[current];
+    textTarget.classList.add("show");
+
+    current = (current + 1) % phrases.length;
+  }, 400);
 }
-typeEffect();
+
+changeText();
+setInterval(changeText, 3000);
