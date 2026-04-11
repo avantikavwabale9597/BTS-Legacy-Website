@@ -159,3 +159,42 @@ section {
   font-size: 2.2rem;
   margin-bottom: 40px;
 }
+.memberSwiper {
+  width: 100%;
+  padding: 30px 0 40px;
+}
+
+.member-card {
+  width: 280px;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  transition: 0.4s ease;
+}
+
+.member-card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.member-card h3 {
+  text-align: center;
+  padding: 14px;
+}
+
+/* Default side cards */
+.memberSwiper .swiper-slide {
+  transform: scale(0.8);
+  filter: blur(2px);
+  opacity: 0.55;
+}
+
+/* Active center card */
+.memberSwiper .swiper-slide-active {
+  transform: scale(1.08);
+  filter: blur(0);
+  opacity: 1;
+  box-shadow: 0 12px 30px rgba(176, 38, 255, 0.35);
+}

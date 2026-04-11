@@ -22,3 +22,21 @@ function changeText() {
 
 changeText();
 setInterval(changeText, 3000);
+
+const memberSwiper = new Swiper(".memberSwiper", {
+  effect: "coverflow",
+  centeredSlides: true,
+  slidesPerView: "auto",
+  spaceBetween: 10,
+  grabCursor: true,
+  loop: false,
+
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 180,
+    modifier: 1.2,
+    scale: 0.9,
+    slideShadows: false,
+  },
+});
