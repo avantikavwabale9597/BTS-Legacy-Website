@@ -20,4 +20,41 @@
 
     <link rel="stylesheet" href="css/style.css" />
   </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">BTS LEGACY</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Intro</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#albums">Albums</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <video autoplay muted loop playsinline class="bg-video">
+        <source src="assets/videos/head1.mp4" type="video/mp4" />
+      </video>
+
+      <div class="overlay"></div>
+
+      <div class="hero-content">
+        <h1 class="title">Welcome To BTS Legacy!</h1>
+        <p class="typing-text"></p>
+        <a href="#albums" class="btn">Explore Now</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Made with 💜 for BTS</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
