@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTS Albums</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <a href="index.html" class="back">← Home</a>
+      <h1>BTS Albums</h1>
+    </header>
+
+    <section class="album-strip">
+      <div
+        class="album-card"
+        data-title="BE"
+        data-bg="linear-gradient(135deg,#2c2c2c,#111)"
+        data-songs="Life Goes On, Blue & Grey, Telepathy, Stay, Dynamite, Fly To My Room, Dis-ease"
+      >
+        <div class="disc"></div>
+        <img src="assets/images/albums/be.jpg" class="cover" alt="BE" />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="MOTS 7"
+        data-bg="linear-gradient(135deg,#6b3fa0,#1b1030)"
+        data-songs="Intro:Persona, Boy With Luv, Make It Right, Jamis Vu, Dionysus, ON, Black Swan, Filter, My Time, Louder Than Bombs, UGH!, Inner Child, Friends, Moon, Outro:EGO"
+      >
+        <div class="disc"></div>
+        <img src="assets/images/albums/mots.png" class="cover" alt="MOTS 7" />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="Proof"
+        data-bg="linear-gradient(135deg,#444,#111827)"
+        data-songs="Yet To Come, Run BTS, Born Singer, For Youth"
+      >
+        <div class="disc"></div>
+        <img src="assets/images/albums/proof.jpg" class="cover" alt="Proof" />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="2 Cool 4 Skool"
+        data-bg="linear-gradient(135deg,#ff7b00,#2b0a00)"
+        data-songs="We Are Bulletproof PT.2, No More Dream, Like, Cypher, Path"
+      >
+        <div class="disc"></div>
+        <img
+          src="assets/images/albums/2cool4skool.jpg"
+          class="cover"
+          alt="2 Cool 4 Skool"
+        />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="Arirang"
+        data-bg="linear-gradient(135deg,#00c6ff,#003b5c)"
+        data-songs="Body To Body, Hooligan, Aliens, FYA, 2.0, No.29, Swim, Merry Go Round, NORMAL, Like Animals, they don't know'bout us, One More Night, Please, Into The Sun"
+      >
+        <div class="disc"></div>
+        <img
+          src="assets/images/albums/arirang.jpeg"
+          class="cover"
+          alt="Arirang"
+        />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="Dark & Wild"
+        data-bg="linear-gradient(135deg,#111111,#%c0000)"
+        data-songs="Intro: What Am I To You?, Danger, War Of Hormone, Let Me Know, Rain, Cypher PT.3, 24/7 = Heaven, Look Here, 2nd Grade, Outro: Do You Think It Makes Sense?"
+      >
+        <div class="disc"></div>
+        <img
+          src="assets/images/albums/darkandwild.jpg"
+          class="cover"
+          alt="Dark & Wild"
+        />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="HYYH"
+        data-bg="linear-gradient(135deg,#ff9acb,#6a5cff)"
+        data-songs="I Need You, Hold Me Tight, Dope, Boyz With Fun, Converse High, Moving On, Love Is Not Over"
+      >
+        <div class="disc"></div>
+        <img src="assets/images/albums/hyyh.jpg" class="cover" alt="HYYH" />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="Love Yourself:Answer"
+        data-bg="linear-gradient(135deg,#ff4da6,#6c63ff)"
+        data-songs="Euphoria, Trivia:Just Dance, Serendipity, DNA, Dimple, Trivia: Love, Her, Singularity, Fake Love, The Truth Untold, Trivia:Seesaw, Tear, Epiphany, I'm Fine, Idol"
+      >
+        <div class="disc"></div>
+        <img
+          src="assets/images/albums/loveyourself.jpg"
+          class="cover"
+          alt="Love Yourself:Answer"
+        />
+      </div>
+
+      <div
+        class="album-card"
+        data-title="Wings"
+        data-bg="linear-gradient(135deg,#1f1f1f,#8e44ad)"
+        data-songs="Intro:Boy Meets Evil, Blood Sweat & Tears, Begin, Lie, Stigma, First Love, Reflection, MAMA, Awake, Lost, Cypher PT.4, Am I Wrong, 21st Century Girls, 2! 3!, Interlude:Wings"
+      >
+        <div class="disc"></div>
+        <img src="assets/images/albums/wings.jpg" class="cover" alt="wings" />
+      </div>
+    </section>
+
+    <div class="popup" id="popup">
+      <div class="book">
+        <div class="paper">
+          <span class="close">✕</span>
+          <h2 id="albumTitle"></h2>
+          <ul id="songList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/slider.js"></script>
+  </body>
+</html>
