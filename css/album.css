@@ -132,3 +132,119 @@ body {
 .album-card:hover .cover {
   transform: translateY(-6px) rotate(-8deg) translateX(-10px);
 }
+
+.popup {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.65);
+  opacity: 0;
+  align-items: center;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+  z-index: 1000;
+}
+
+.popup.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.book {
+  perspective: 1200px;
+}
+
+.paper {
+  position: relative;
+  width: min(92vw, 540px);
+  min-height: 420px;
+  background: linear-gradient(180deg, #ffffff, #faefff);
+  color: #111;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
+  transform-origin: left center;
+  transform: t=rotateY(-90deg) scale(0.92);
+  opacity: 0;
+  transition:
+    transform 0.65s ease,
+    opacity 0.45s ease;
+}
+.popup.show .paper {
+  transform: rotateY(0deg) scale(1);
+  opacity: 1;
+}
+
+.paper h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #5d2aa8;
+}
+.paper ul {
+  list-style: none;
+}
+.paper li {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.paperli:last-child {
+  border-bottom: none;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    padding: 16px 18px;
+    flex-wrap: wrap;
+  }
+
+  .topbar h1 {
+    font-size: 1.5rem;
+  }
+
+  .album-strip {
+    gap: 55px;
+    padding: 30px 18px 50px;
+  }
+
+  .album-card {
+    width: 220px;
+    height: 220px;
+    min-width: 220px;
+  }
+
+  .cover {
+    width: 220px;
+    height: 220px;
+  }
+
+  .disc {
+    width: 185px;
+    height: 185px;
+    top: 10px;
+    left: 18px;
+  }
+
+  .album-card:hover .disc {
+    transform: translateX(110px) rotate(180deg);
+  }
+
+  .paper {
+    min-height: 360px;
+    padding: 22px;
+  }
+
+  .paper h2 {
+    font-size: 1.6rem;
+  }
+}
