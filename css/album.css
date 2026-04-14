@@ -253,3 +253,27 @@ body {
     font-size: 1.6rem;
   }
 }
+.song-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 30px;
+  margin-bottom: 20px;
+}
+.song-grid li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.song-grid li:hover {
+  color: #1db954;
+  transform: translateX(5px);
+}
+#spotifyPlayer {
+  width: 100%;
+  height: 152px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 10px;
+}
