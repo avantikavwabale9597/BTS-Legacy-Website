@@ -18,7 +18,7 @@
         class="album-card"
         data-title="BE"
         data-bg="linear-gradient(135deg,#2c2c2c,#111)"
-        data-songs="Life Goes On, Blue & Grey, Telepathy, Stay, Dynamite, Fly To My Room, Dis-ease"
+        data-songs="Dynamite, Blue & Grey, Telepathy, Stay, Life Goes On, Fly To My Room, Dis-ease"
       >
         <div class="disc"></div>
         <img src="assets/images/albums/be.jpg" class="cover" alt="BE" />
@@ -28,7 +28,7 @@
         class="album-card"
         data-title="MOTS 7"
         data-bg="linear-gradient(135deg,#6b3fa0,#1b1030)"
-        data-songs="Intro:Persona, Boy With Luv, Make It Right, Jamis Vu, Dionysus, ON, Black Swan, Filter, My Time, Louder Than Bombs, UGH!, Inner Child, Friends, Moon, Outro:EGO"
+        data-songs="Intro:Persona, Boy With Luv, Make It Right, Jamais Vu, Dionysus, ON, Black Swan, Filter, My Time, Louder Than Bombs, UGH!, Inner Child, Friends, Moon, Outro:EGO"
       >
         <div class="disc"></div>
         <img src="assets/images/albums/mots.png" class="cover" alt="MOTS 7" />
@@ -127,10 +127,27 @@
           <span class="close">✕</span>
           <h2 id="albumTitle"></h2>
           <ul id="songList"></ul>
+
+          <iframe
+            id="spotifyPlayer"
+            src=""
+            width="100%"
+            height="152"
+            frameborder="0"
+            allow="
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              fullscreen;
+              picture-in-picture;
+            "
+            style="margin-top: 16px; border-radius: 12px; display: none"
+          ></iframe>
         </div>
       </div>
     </div>
 
+    <script src="js/tracks.js"></script>
     <script src="js/slider.js"></script>
   </body>
 </html>

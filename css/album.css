@@ -91,11 +91,11 @@ body {
   z-index: 1;
   background: radial-gradient(
     circle at center,
-    #ac8ccf 0 7%,
-    #714bc9 8% 16%,
-    #5c23ba 17% 34%,
-    #4c1d95 35% 65%,
-    #1e1b4b 66% 100%
+    #948d9a 0 7%,
+    #7b7784 8% 16%,
+    #6a686e 17% 34%,
+    #403f41 35% 65%,
+    #1d1d1d 66% 100%
   );
   box-shadow:
     0 0 10px rgba(139, 92, 246, 0.18),
@@ -165,7 +165,7 @@ body {
   padding: 28px;
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
   transform-origin: left center;
-  transform: t=rotateY(-90deg) scale(0.92);
+  transform: rotateY(-90deg) scale(0.92);
   opacity: 0;
   transition:
     transform 0.65s ease,
@@ -189,7 +189,12 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-.paperli:last-child {
+.paper li:hover {
+  color: #1db954;
+  transform: translateX(6px);
+}
+
+.paper li:last-child {
   border-bottom: none;
 }
 

@@ -1,0 +1,111 @@
+const tracks = {
+  // BE
+  Dynamite: "4saklk6nie3yiGePpBwUoc",
+  "Blue & Grey": "0n2moJpAEWHwaPYYjkzMDl",
+  Telepathy: "6Fnvi5QnVkTskSzeRvvQds",
+  Stay: "3ndCsZfq8OVwwkz9mmZvUz",
+  "Life Goes On": "5FVbvttjEvQ8r2BgUcJgNg?si=12b0359703b349b4",
+  "Fly To My Room": "3QH8rQGNFX8VLbCgZ7uPTS",
+  "Dis-ease": "54DmTIv86D3sYdiawjULQ0",
+
+  // Map of the Soul: 7
+  "Intro:Persona": "7incJHhOl108CJBxylqc1z?si=90c480fe266b4e3c",
+  "Boy With Luv": "7lrqvdivAYRGEiO8JFP31G?si=004da609fed44903",
+  "Make It Right": "30YLyzfEjMQsXj4ZFslAmT?si=3bcd35c0657f4a81",
+  "Jamais Vu": "0PpNBEXkjalflGCMMsBV5B?si=02c5ee77dbe64639",
+  Dionysus: "5LvqzuJCNpi2pNkJAX8mBT?si=ad1d455ed2114ea4",
+  ON: "0fZRNhPJ4AGmwY7rkpdbqK?si=846dc765edbc4a3c",
+  "Black Swan": "2EmcTFQ1rM11wp2ztsXTHa?si=beddeb5d36af4d56",
+  Filter: "4bZZVcgWWMWPBwzTTp642w?si=9812ddd5ba3b429b",
+  "My Time": "0YJFlxeHMUr9MxSDQVuQJA?si=acbfe5738a1a458d",
+  "Louder Than Bombs": "4Aw8n6r2vuU0KUo1a2nftp?si=4cff342a028345f1",
+  "UGH!": "2QZe2H1f03t5PJWEMg2Mbe?si=baae3289137d48f1",
+  "Inner Child": "25MHcbjvSdcfTiFgbKJiZF?si=8eae7890d8ac42ff",
+  Friends: "5RjUtRlDonw3TBgGGMLC5b?si=fbcff12a34e54399",
+  Moon: "6KhAXXgDtEEahVzATvFNcn?si=c975880ef45f42d2",
+  "Outro:EGO": "2LVw2bIK99go1NdD77dUCW?si=56fb1b17fa7c4cc6",
+
+  // Proof
+  "Yet To Come": "10SRMwb9EuVS1K9rYsBfHQ?si=7a74eef76a314f23",
+  "Run BTS": "69xohKu8C1fsflYAiSNbwM?si=ccd10a131fac412f",
+  "Born Singer": "1IthE5GNiRzFN5CVaCa445?si=c6a4cb27dc18478b",
+  "For Youth": "4JzCFEc3O2UEdjKzevvFH5?si=2e1bb5f4600949ba",
+
+  // 2 Cool 4 Skool
+  "We Are Bulletproof PT.2": "6i3ewj9Mml20H0lQ8R30hV",
+  "No More Dream": "4q10T1bIfG0q04F69l1Fh6",
+  Like: "6z72O29X0IebmO7OON6Lcc",
+  Cypher: "0Hdb2T2m2R9V0U83d2j3F4",
+  Path: "", // Hidden track, will trigger fallback search
+
+  // Dark & Wild
+  "Intro: What Am I To You?": "6E4zB1D4lH4Y5J6A2oP8B9",
+  Danger: "3j08gP5D2F6K4L8Z2N1m9A",
+  "War Of Hormone": "1k3a2P5D6F9K8L1Z5N4m6B",
+  "Let Me Know": "2o8g5P1D3F7K9L2Z4N6m8C",
+  Rain: "5H0uPryB3i1Y9H8bX9K9bX",
+  "Cypher PT.3": "4j08gP5D2F6K4L8Z2N1m9A",
+  "24/7 = Heaven": "2k3a2P5D6F9K8L1Z5N4m6B",
+  "Look Here": "6o8g5P1D3F7K9L2Z4N6m8C",
+  "2nd Grade": "1H0uPryB3i1Y9H8bX9K9bX",
+  "Outro: Do You Think It Makes Sense?": "7j08gP5D2F6K4L8Z2N1m9A",
+
+  // HYYH (The Most Beautiful Moment in Life)
+  "I Need You": "5cWjBvP5o6cT5ZJqD8X0L4", // Spelled "I Need U" on Spotify
+  "Hold Me Tight": "1o2w5V0T0fJ1LwW8Z8Y4S2",
+  Dope: "3jO7X5KupFzcs1zJq0V6Dq",
+  "Boyz With Fun": "5j08gP5D2F6K4L8Z2N1m9A",
+  "Converse High": "8k3a2P5D6F9K8L1Z5N4m6B",
+  "Moving On": "3o8g5P1D3F7K9L2Z4N6m8C",
+  "Love Is Not Over": "2H0uPryB3i1Y9H8bX9K9bX",
+
+  // Love Yourself: Answer
+  Euphoria: "3p6defgHXXyIIf4NaZkXvA",
+  "Trivia:Just Dance": "62IeR6Dbsv6iSCAI505OQj",
+  Serendipity: "5cTQJGE0t45a8oZXXaJ8tB",
+  DNA: "5jzma6gCzYtKB1DbEwFZKH",
+  Dimple: "6HweEJXW5w1mH1EwXJ1wA8",
+  "Trivia: Love": "2hJDB1YjBq51e9A10t8Q1L",
+  Her: "21gP475H97YvWdE8h17I41",
+  Singularity: "3E1k1X4qI8T276kC0gT31E",
+  "Fake Love": "6m1NW5sFRcbJWtcOIE1pZZ",
+  "The Truth Untold": "41DOfK22vSExgT9xH1i4dE",
+  "Trivia:Seesaw": "0a1nC4Y2z8hD77E8iZJ9iT",
+  Tear: "0zRst18wP39A722Gg6JjT1",
+  Epiphany: "00aCqQY2xYyYyW6n6M386f",
+  "I'm Fine": "281WdIuG0wHk1eDq03w5aP",
+  Idol: "2AIX1W1eZ2v2R9T3k6O1p6",
+
+  // Wings
+  "Intro:Boy Meets Evil": "6lQ5QY8K2q1X7w9G4Kk6K6",
+  "Blood Sweat & Tears": "5TXDeTFVRVY7Cvt0Gwg10V",
+  Begin: "1b0D7sRkE5eN391X4GvK2A",
+  Lie: "2Kuk9yXQJ9G4K5C6b8K3K0",
+  Stigma: "36KxP8oB3m9vWk0Z1bZ1X0",
+  "First Love": "4p6mK6o3xK1X7X0G1yZ1X0",
+  Reflection: "3a0H9v1W3K1X7X0G1yZ1X0",
+  MAMA: "5e7D8K6o3xK1X7X0G1yZ1X0",
+  Awake: "6f8C7sRkE5eN391X4GvK2A",
+  Lost: "1c0D7sRkE5eN391X4GvK2A",
+  "Cypher PT.4": "2d0D7sRkE5eN391X4GvK2A",
+  "Am I Wrong": "3e0D7sRkE5eN391X4GvK2A",
+  "21st Century Girls": "4f0D7sRkE5eN391X4GvK2A",
+  "2! 3!": "5g0D7sRkE5eN391X4GvK2A",
+  "Interlude:Wings": "6h0D7sRkE5eN391X4GvK2A",
+
+  // Arirang
+  "Body To Body": "2rKkfc4VZ74FQDc1FF1Zo6?si=0bda21659987475c",
+  Hooligan: "20dAJsyno9ZoBLJtqgQnUI?si=b3b6ae7481a041c8",
+  Aliens: "5tg21NdePCn5m8F9BXOEeJ?si=c025ba1048ea4eef",
+  FYA: "0KmrKOdScRDVYwWS8hkkdv?si=87a159f737a34869",
+  "2.0": "3bmpXHVie1GTy37OkXJ7Vc?si=b700e1105ab9431a",
+  "No.29": "3plyGpDgzfrnZbpElpfioV?si=794f95adc5794865",
+  Swim: "68lbSrXDORS51pmyjZv712?si=36935a174cd4484a",
+  "Merry Go Round": "3VegC0PZiHjGxb80DER8XU?si=4c740fe611084d46",
+  NORMAL: "4B4Q7zfd0aHcuhQBfCRnH5?si=a09a119b022047b6",
+  "Like Animals": "2IFND3phjzIG1RcPnHh2hP?si=c39b809916fe4957",
+  "they don't know'bout us": "0b61A7v9agI08BG21jJPQ9?si=9ee73bfbc4e54e22",
+  "One More Night": "6s3w7SUVtmm68Bw5KrKMh0?si=3df46df175df4237",
+  Please: "1XpVhaI4HzWrhRWIpdfyJB?si=f13c89a791b14dae",
+  "Into The Sun": "1ZNolq7VI7efGlh2hb2VVr?si=de28395b7f5c4894",
+};
