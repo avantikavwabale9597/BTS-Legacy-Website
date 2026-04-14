@@ -27,8 +27,8 @@
         <ul class="nav-links">
           <li><a href="#home">Intro</a></li>
           <li><a href="#members">Members</a></li>
-          <li><a href="albums.html">Albums</a></li>
           <li><a href="#timeline">Timeline</a></li>
+          <li><a href="albums.html">Albums</a></li>
         </ul>
       </nav>
     </header>
@@ -52,41 +52,65 @@
 
       <div class="swiper memberSwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide member-card">
+          <div class="swiper-slide member-card" data-member="rm">
             <img src="assets/images/members/rm.jpg" />
             <h3>RM</h3>
           </div>
 
-          <div class="swiper-slide member-card">
+          <div class="swiper-slide member-card" data-member="jin">
             <img src="assets/images/members/jin.jpg" />
             <h3>Jin</h3>
           </div>
 
-          <div class="swiper-slide member-card">
+          <div class="swiper-slide member-card" data-member="suga">
             <img src="assets/images/members/suga.jpg" />
             <h3>Suga</h3>
           </div>
 
-          <div class="swiper-slide member-card">
+          <div class="swiper-slide member-card" data-member="jhope">
             <img src="assets/images/members/jhope.jpg" />
             <h3>J-Hope</h3>
           </div>
 
-          <div class="swiper-slide member-card">
+          <div class="swiper-slide member-card" data-member="jimin">
             <img src="assets/images/members/jimin.jpg" />
             <h3>Jimin</h3>
           </div>
 
-          <div class="swiper-slide member-card">
+          <div class="swiper-slide member-card" data-member="v">
             <img src="assets/images/members/v.jpg" />
             <h3>V</h3>
           </div>
 
-          <div class="swiper-slide member-card">
+          <div class="swiper-slide member-card" data-member="jk">
             <img src="assets/images/members/jk1.jpg" />
             <h3>Jungkook</h3>
           </div>
         </div>
+      </div>
+    </section>
+    <div class="member-popup" id="memberPopup">
+      <div class="paper-popup" id="paperPopup">
+        <span id="closeMember">✕</span>
+        <h2 id="memberName"></h2>
+        <p id="memberInfo"></p>
+
+        <a href="discography.html" class="btn disco-btn">Explore discography</a>
+      </div>
+    </div>
+
+    <section class="section" id="timeline">
+      <h2 class="section-title">Journey Timeline</h2>
+
+      <div class="timeline-box">
+        <p><span>2013</span> Debut with 2 Cool 4 Skool</p>
+        <p><span>2017</span> Global Breakthrough</p>
+        <p><span>2018</span> UN Speech</p>
+        <p><span>2020</span> Dynamite Success</p>
+        <p><span>2022</span> Military Enlistment</p>
+        <p><span>2023-2024</span> Solo Career Growth</p>
+        <p><span>2025</span> Reunited As a Group</p>
+        <p><span>2026</span> Comeback With Hip-Hop Album Arirang</p>
       </div>
     </section>
 
@@ -99,5 +123,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/members.js"></script>
   </body>
 </html>

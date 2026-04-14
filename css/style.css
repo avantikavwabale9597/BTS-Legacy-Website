@@ -198,3 +198,124 @@ section {
   opacity: 1;
   box-shadow: 0 12px 30px rgba(176, 38, 255, 0.35);
 }
+
+.member-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  /* Hidden by default */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+/* When the popup is active */
+.member-popup.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.paper-popup {
+  background: linear-gradient(145deg, #1a1a24, #0f0f15);
+  border: 1px solid rgba(157, 78, 221, 0.3);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+
+  /* Springy enter animation */
+  transform: scale(0.8) translateY(30px);
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Triggered by the parent .show class */
+.member-popup.show .paper-popup {
+  transform: scale(1) translateY(0);
+  opacity: 1;
+}
+
+/* The close animation triggered by your JS */
+.paper-popup.close-anim {
+  transform: scale(0.9) translateY(20px) !important;
+  opacity: 0 !important;
+  transition: all 0.3s ease-in !important;
+}
+
+#closeMember {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#closeMember:hover {
+  color: var(--purple);
+}
+
+#memberName {
+  color: var(--purple);
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+#memberInfo {
+  white-space: pre-line; /* Respects the line breaks in your JS object! */
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+.disco-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(45deg, var(--purple), var(--purple2));
+  transition: 0.3s;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.disco-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 0 22px rgba(176, 38, 255, 0.6);
+}
+
+.timeline-box {
+  max-width: 800px;
+  margin: auto;
+  background: var(--card);
+  padding: 30px;
+  border-radius: 18px;
+}
+.timeline-box p {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.timeline-box p:last-child {
+  border: none;
+}
+.timeline-box span {
+  color: var(--lav);
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #050505;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
