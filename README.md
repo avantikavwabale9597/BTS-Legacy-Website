@@ -78,6 +78,12 @@ A modern, interactive fan website built using **HTML, CSS, and JavaScript** to c
 - CSS3
 - JavaScript (ES6)
 - Swiper.js
-- Spotify Embed API
+- Spotify track Ids
 - DOM API
 - Responsive Web Design
+
+Demo of how to use
+![alt text](assets/videos/demo_bts-legacy.mp4)
+
+1. To scroll members panel just double-click and scroll
+2. To scroll album panel, scroll with 2 fingers
