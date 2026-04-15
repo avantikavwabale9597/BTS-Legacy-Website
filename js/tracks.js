@@ -109,4 +109,114 @@ const tracks = {
   "One More Night": "6s3w7SUVtmm68Bw5KrKMh0?si=3df46df175df4237",
   Please: "1XpVhaI4HzWrhRWIpdfyJB?si=f13c89a791b14dae",
   "Into The Sun": "1ZNolq7VI7efGlh2hb2VVr?si=de28395b7f5c4894",
+
+  //Indigo
+  Yun: "3F3PuqGinS2T1ePmjUTw9t?si=5badfe5e20b945f4",
+  "Still Life": "3p4N6mBFv42M8dI8SUoPre?si=c0b91d014ad74588",
+  "All Day": "3PgnXyzWXrEoE0oQdLMF3M?si=45be2e7b65bc4428",
+  Forg_tful: "1mrS1j5cwaffpXsthTb2Qx?si=af4abddc4c2f4def",
+  Closer: "0Cuwd86fyu0lPVokzTp8Hu?si=83278562ecfb4b7f",
+  "Change pt.2": "2hMvhh9FiCB6njOYR7tkT8?si=2db12de0c06b4bde",
+  Lonely: "49iPCmLYg3SS8r2MXcbR1N?si=e1b4ffe963814cdb",
+  Hectic: "3ZCuqvHYhjDlliRH9oCs77?si=6b4dc3e920a74aca",
+  "Wild Flower": "1AZjCZSGEjlxUufFQwSszF?si=5c57e9577bb74d5d",
+  "No.2": "2sXaFMTkBHYrEgfGJ2y27a?si=aeee5eb7287a40dc",
+
+  //mono.
+  tokyo: "2YCTRzLwXgiNvbod8xuCHl?si=03a356b0591e44ba",
+  seoul: "1sKsYTGy8XfHjCYqcudqG5?si=9414f983ddbf4590",
+  moonchild: "6BnciRM9jyEP9cEjvoN5eI?si=3be17dddf90f432d",
+  badbye: "6CYJojwhuUyTTL5G6AsDHf?si=ff0fe335b48746c4",
+  uhgood: "5u9Pr2CujzeWFZJPALBPqQ?si=9ec25db8e31c4f98",
+  everythingoes: "0ZUtat3yQpzMRMJ9Qmz5k0?si=6c2b86ea6ad347b1",
+  "forever rain": "42DD4cLqkprJPih3YxXkAO?si=829744dc98cf42a3",
+
+  //RPWP
+  "Right People Wrong Place": "2ftb45L7iXYwp0WoTEuslG?si=d3e63cf194a24e64",
+  Nuts: "2sR1e5YFAvXVN6EiIwR2is?si=b4ec68c92e8a41a1",
+  "out of love": "7zC89ef9MMffAGCnDMsatc?si=8e54baccc5584467",
+  Domodachi: "4MQBnk52HKbl59BX497xhM?si=9c97c4e2d6714738",
+  Groin: "4kBr5XX61vLb4tejJajOT8?si=0fdc9aabf1254c07",
+  Heaven: "1B9HE8h6ZnljGk0LZ2H30D?si=c2077f00ed084c90",
+  "LOST!": "02H58MSfVESkKyx4diDgu7?si=975e61570bdf4d9f",
+  "Around the world in a day": "0AncHqGegHhP6teMUwLRWr?si=d1a4ba015fe341c8",
+  "come back to me": "62HKW77nt6tudsIHXT2A0M?si=2bf7769bd8cc43d1",
+
+  //Echo
+  "Don't Say You Love Me": "27xkOIER6uDLKALIelHylZ?si=ebbd6c9f9a7c435b",
+  "Nothing Without Your Love": "4H6s1mTZcjHAMU36ZF3Xoz?si=af0f4bed80ac4bf7",
+  Loser: "4WrkJNGb4zUwARc0FD3iNf?si=aff279fbef5a47a7",
+  "Rope It": "5566hAPt0WmMPr9Xn749L7?si=5c23f5a3bd5f4b90",
+  "With the Clouds": "5RdKO1lsHG9jhbG03LL7cv?si=381dcc9da1664140",
+  Background: "1qmcc6IRvBdhmqhLhSaJoo?si=15eda7bc6873409d",
+  "To Me Today": "3f7rVNaBNocDLtPmnds9eE?si=76585206491f4d49",
+
+  //Happy
+  "Running Wild": "4p7DTkyrKqT98xlIwYYfXz?si=85960c267c7b43d8",
+  "I'll Be There": "48ZIrgOwD74LvIf3EvLTt9?si=a0c6298e348c4321",
+  "Another Level": "4xbq37lr4SuP3kuxj9y8gp?si=824a632dfd5e48c0",
+  Falling: "3DeK5G7OhuJ1P1462XXgIu?si=42473cccaff74795",
+  "Heart on the Window": "1b6qYBwDMBpFylGVT4PRgD?si=b55c5f401d1a458b",
+  "I will come to you": "5c2BZj7YSGHwvjf2CtO2S4?si=8aa9f92957e3460b",
+
+  //THe Astronaut
+
+  "The Astronaut": "0h7QMc9ZRzA9QJrbEHytn2?si=466933c826e94e31",
+
+  //Agust D
+  "Intro:DT sugA": "3GAz3o5o3lZGUOPUSPG8ul?si=9676258a1ac74a32",
+  "Agust D": "6AknCCsxOsrJ2mkSdCtET1?si=1adc7678ee53421f",
+  "give it to me": "1m0yEldZVNu9SzmtqfFWRt?si=d15d680d8404464d",
+  skit: "26HtJsUEt63fiyqvqBA1aN?si=f1293b6800a64b5f",
+  "140503 at dawn": "7KqWZhPNdkcYRqgDU1W7RX?si=77577aab93fd49e7",
+  "The Last": "2FUZnIf0LasXgvXMewJ0lO?si=1300cd22006a420d",
+  "Tony Montana": "041DRqg0jswhQut7PMjnrv?si=b55f34533eb140c6",
+  "so far away": "2FviiM1DSKfJSRxMV5TD9w?si=d85efa81c4dc4438",
+
+  //D-2
+
+  Moonlight: "1NuwEuQH7vbDLA9eg5TvEg?si=5c3491c4d8b54a69",
+  Daechwita: "0JKGe340YJwfDrpXqPQ8sw?si=a92d3e04cf6448ab",
+  "What do you think?": "5dnT77AAQJcNYrqAod0jHQ?si=aabedb53042b4792",
+  Strange: "5sF4GOOSRELn8zn6DDGzUP?si=12eb10c72647450a",
+  28: "3pGNUEIlaUlCU8mXxKInzw?si=665c8619cfc146c5",
+  "Burn It": "2hX8rtWyNxYyaBT64H3LYU?si=20fb5a6c95f24c98",
+  People: "6HDHaCnH2FCSdEwXrJfEVF?si=340f0e1b908a4562",
+  Honsool: "2cSbuiICLgDR1GIQisS9Zf?si=37cb29847c79406f",
+  "Interlude:Set me free": "0lfJTv87NKrjyr0k7eueUR?si=f97fa5724bd14a49",
+  "Dear my friend": "6lUjwGIRWdcowZJRZrpqEr?si=da4b51f7c0d14e30",
+
+  //D-Day
+
+  "D-Day": "22W6wI4hDTjMAYKKBQW9dU?si=07ada68715964ece",
+  Haegeum: "4bjN59DRXFRxBE1g5ne6B1?si=4814d683db9847c8",
+  "HUH?!": "6XrPzwKeGzEvtan3acn7VH?si=7abfe487de1549b4",
+  AMYGDALA: "5fj32MKLHkut2Vod1UodcU?si=b5bf5b09202c4002",
+  SDL: "2vRoAkwc3UBEPW2udvN0u9?si=72807bd185fe4d7c",
+  "People Pt.2": "41JPN7pZMTp1sumBOHOzHd?si=369c1936e98f4bb6",
+  "Polar Night": "3JSodIIStqTwXSH7nXOuhe?si=b67f8fe9deda4ef2",
+  "Interlude:Dawn": "56tf3cHQkwmvoplotk5QXd?si=a3c0bc58563c4097",
+  Snooze: "4j3M8NrbGSXdMPwEVsnfHE?si=f330b0de5a8f491f",
+  "Life Goes On": "7gv3UYPh05ZDP7Io5BIsn7?si=b7f17e9c7d3f4e0f",
+
+  //Hope World
+
+  "Hope World": "5UMPPsXaGbR1qtzcnEtTpM?si=b0377ccd7eb94eaf",
+  "P.O.P(Piece Of Peace)Pt.1": "78GQP9XBSqpEDlMoPAbUAJ?si=20cae550b06541da",
+  Daydream: "56sdcbPR74RxqmKVbQzJ8s?si=1bdd091cd25248ee",
+  "Base Line": "3eSCPt6StovDAIps2XhZ2Z?si=3ba57caa61524320",
+  HANGSANG: "270k38FpoKhnvZLv50NlTr?si=85d804a143894d7c",
+  Airplane: "2jk6oBuLiCZJTDWhlJEzIw?si=93126a6f92fe4cb3",
+  "Blue Side": "20zr2Oef3PVeGRxjmSF5CC?si=81d76a6687d847a3",
+
+  //Jack in the box
+  "Pandora's Box": "2iKNuOB4pI4HgPsJk0BSsq?si=988dc2a54b344338",
+  MORE: "36KFMe3Q3wLCXd9SUudx9M?si=2f7fa8c816e049fe",
+  STOP: "426n8OsTAOwb3DWkpXE21H?si=7e1edc12cd3d47f5",
+  "=(Equal Sign)": "0uTKGno7UM5vOgdjYHCnYC?si=667bb37eafea41d0",
+  "Music Box:Reflection": "2VtuHoWIv4IbcIetUuP1tC?si=e987fb0844c449fb",
+  "What if...": "4vC2BY833RNjG04vTIozVB?si=93462963d8bc4a75",
+  "Safety Zone": "2WwmLOkTON4hjrMJz72ZfT?si=8637c0d252604a05",
+  Future: "1Vs20by3VD5F1MSschAF7A?si=eb53eee6d03949c1",
+  Arson: "58cTKEMafSngmjD7aPFfII?si=b5b764c391584674",
 };

@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const memberCards = document.querySelectorAll(".member-card");
   const memberName = document.getElementById("memberName");
   const memberInfo = document.getElementById("memberInfo");
+  const discoLink = document.getElementById("discoLink");
 
   const memberData = {
     rm: {
@@ -142,7 +143,6 @@ Achievements:
     },
   };
 
-  // OPEN POPUP
   memberCards.forEach((card) => {
     card.addEventListener("click", () => {
       const key = card.dataset.member;
@@ -152,6 +152,8 @@ Achievements:
 
       memberName.textContent = data.name;
       memberInfo.textContent = data.info;
+
+      discoLink.href = `discography.html#${key}`;
 
       popup.classList.add("show");
     });
