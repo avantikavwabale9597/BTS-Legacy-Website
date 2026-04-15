@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTS Solo Discography</title>
+
+    <link rel="stylesheet" href="css/album.css" />
+    <link rel="stylesheet" href="css/discography.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <a href="index.html" class="back">← Home</a>
+      <h1>BTS Solo Discography</h1>
+    </header>
+
+    <!-- RM -->
+    <section id="rm" class="member-block">
+      <h2>RM</h2>
+
+      <div class="album-strip">
+        <div
+          class="album-card"
+          data-title="Indigo"
+          data-bg="linear-gradient(135deg,#0f2027,#203a43,#2c5364)"
+          data-songs="Yun, Still Life, All Day, Forg_tful, Closer, Change pt.2, Lonely, Hectic, Wild Flower, No.2"
+        >
+          <div class="disc"></div>
+          <img src="assets/images/albums/Indigo_RM.jpeg" class="cover" />
+        </div>
+
+        <div
+          class="album-card"
+          data-title="mono."
+          data-bg="linear-gradient(130deg,#ffffff,#000000)"
+          data-songs="tokyo, seoul, moonchild, badbye, uhgood, everythingoes, forever rain"
+        >
+          <div class="disc"></div>
+          <img src="assets/images/albums/RM_Mono.jpeg" class="cover" />
+        </div>
+
+        <div
+          class="album-card"
+          data-title="Right Place Wrong Person"
+          data-bg="linear-gradient(135deg,#0f2027,#203a43,#2c5364)"
+          data-songs="Right People Wrong Place, Nuts, Out of Love, Domodachi, Groin, Heaven, LOST!, Around the world in a day, Come back to me"
+        >
+          <div class="disc"></div>
+          <img src="assets/images/albums/RM_RPWP.jpeg" class="cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- JIN -->
+    <section id="jin" class="member-block">
+      <h2>Jin</h2>
+
+      <div class="album-strip">
+        <div
+          class="album-card"
+          data-title="Echo"
+          data-bg="linear-gradient(135deg,#0f2027,#203a43,#2c5364)"
+          data-songs="Don't Say You Love Me, Nothing Without Your Love, Loser, Rope It, With the Clouds, Background, To Me Today"
+        >
+          <div class="disc"></div>
+          <img src="assets/images/albums/Jin_Echo.jpeg" class="cover" />
+        </div>
+
+        <div
+          class="album-card"
+          data-title="Happy"
+          data-bg="linear-gradient(130deg,#ffffff,#000000)"
+          data-songs="Running Wild, I'll Be There, Another Level, Falling, Heart on the Window, I will come to you"
+        >
+          <div class="disc"></div>
+          <img src="assets/images/albums/Jin_Happy.jpeg" class="cover" />
+        </div>
+
+        <div
+          class="album-card"
+          data-title="The Astronaut"
+          data-bg="linear-gradient(135deg,#0f2027,#203a43,#2c5364)"
+          data-songs="The Astronaut"
+        >
+          <div class="disc"></div>
+          <img
+            src="assets/images/albums/The_Astronaut_jin.jpeg"
+            class="cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+      <div class="book">
+        <div class="paper">
+          <span class="close">✕</span>
+          <h2 id="albumTitle"></h2>
+
+          <div id="songList" class="song-grid"></div>
+
+          <iframe
+            id="spotifyPlayer"
+            src=""
+            width="100%"
+            height="152"
+            frameborder="0"
+            allow="
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              fullscreen;
+              picture-in-picture;
+            "
+            style="display: none; border-radius: 12px; margin-top: 14px"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/tracks.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
