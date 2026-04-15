@@ -219,4 +219,42 @@ const tracks = {
   "Safety Zone": "2WwmLOkTON4hjrMJz72ZfT?si=8637c0d252604a05",
   Future: "1Vs20by3VD5F1MSschAF7A?si=eb53eee6d03949c1",
   Arson: "58cTKEMafSngmjD7aPFfII?si=b5b764c391584674",
+
+  //face
+  "Face-off": "3OdIiWnYRHPYtC313Z0Bwy?si=8c81947b86164d72",
+  "Interlude:Dive": "2qg2jy3v50RwfV5FAqG3a2?si=d58f1b6ed7704e5d",
+  "Like Crazy": "3Ua0m0YmEjrMi9XErKcNiR?si=034ec1f3b0064a33",
+  Alone: "5Hfnps0jaWFpYg55WOPexG?si=05454d96f6c548f4",
+  "Set Me Free Pt.2": "1fpj1CJPxY3YvN3AMAEYvt?si=96f993ebf3d649fa",
+  "Like Crazy(English Version)": "0u8rZGtXJrLtiSe34FPjGG?si=ebfcad53fcfe41ea",
+
+  //muse
+  "Rebirth(Intro)": "7gMfVc4zfNIxuMyMGglOHa?si=206be4051fb14141",
+  "Interlude:Showtime": "45zLrK0668WQ5JFMyiYmCS?si=f4347321083b4c2e",
+  "Smeraldo Garden Marching Band": "1agDCV4zQqaFwJQNsTgmL1?si=c3d439f17d9648ef",
+  "Slow Dance": "3d2bsbugow8JiNvuaRupFH?si=7deda655cf1d4338",
+  "Be Mine": "3LWVXp636uLT356Rj08Jaz?si=4149c0c895b64a05",
+  Who: "7tI8dRuH2Yc6RuoTjxo4dU?si=2a040ca4f6ae436e",
+  "Closer Than This": "6qafqn8bBMy7t5c5WqpyRk?si=8d4c15c4921f4799",
+
+  //layover
+  "Rainy Days": "54bg1e6ABcZfpU3yzwxnPf?si=4d27bb7cd17f4b5d",
+  Blue: "2UU11hvjN1JIn4iihEodNT?si=df49e51bd89149a0",
+  "Love Me Again": "0SftJDguUa1F5SsQwwkLw4?si=a5b9a97af536463b",
+  "Slow Dancing": "5h1BN75CEh8wdSwE1xrbSe?si=d7a94edfaba849b7",
+  "For Us": "4HAOgAnILvXCbSODMoRnmD?si=1d474b6929e74c78",
+  "Slow Dancing(Piano Ver.)": "7pgbDdy7ax962o9d2xJceV?si=3abfc5acdbe24ff7",
+
+  //golden
+  "3D": "6xGr4tVzpTX99p9Cf0hRRL?si=a167280486074bd3",
+  "Closer To You": "06Qo2fYR2KS1F7bL338iVT?si=805eea02b9fa4caf",
+  "Seven(Explicit Ver.)": "2HRgqmZQC0MC7GeNuDIXHN?si=977fcbdb4c984dfa",
+  "Standing Next to You": "2KslE17cAJNHTsI2MI0jb2?si=2f6fcb13e3fe4675",
+  "Yes or No": "2gkVEnpahpE3bQuvGuCpAV?si=5b31a0542ad24c46",
+  "Please Don't Change": "0k0GtcnyQLMiXrdEDbLXmJ?si=49c0176d9c574e47",
+  "Hate You": "5ONOlTiqymhzwcFjqcIT6E?si=ae46bb786b86474d",
+  Somebody: "5KfJvZ0PZzRdwFRaTUDAA7?si=ed01943135e741ac",
+  "Too Sad to Dance": "3bNNvJA7hsGw0wSpGkfOBm?si=1350eac93cc3451f",
+  "Shot Glass of Tears": "7AbqgE05nFl9qY4FRUiq2p?si=b5fafa7e3ec448df",
+  "Seven(Clean Ver.)": "7Hcj0duTWiCSYDtJaztNIt?si=f10fc98667a8438e",
 };
