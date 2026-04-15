@@ -83,7 +83,9 @@ A modern, interactive fan website built using **HTML, CSS, and JavaScript** to c
 - Responsive Web Design
 
 Demo of how to use
-![alt text](assets/videos/demo_bts-legacy.mp4)
+![alt text](assets/videos/demo-bts-legacy.mp4)
+
+(the watermark of clideo is there cause I compressed the demo video)
 
 1. To scroll members panel just double-click and scroll
 2. To scroll album panel, scroll with 2 fingers
